@@ -1,10 +1,10 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>New user Register for DevOps Learning by Daniele</h1>
-    <p>Please fill in this form to create an account by Daniele.</p>
+    <h1>New user Register for DevOps Learning by Dan</h1>
+    <p>Please fill in this form to create an account by Dan.</p>
     <hr>
      
-    <label for="Name"><b>Enter Name2</b></label>
+    <label for="Name"><b>Enter Name</b></label>
     <input type="text" placeholder="Enter Full Name ..." name="Name" id="Name" required>
     <br>
     
@@ -31,6 +31,6 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 
-   <h1>Happy Learning Daniele</h1>
+   <h1>Happy Learning Dan</h1>
   
 </form>
