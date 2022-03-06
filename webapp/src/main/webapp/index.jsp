@@ -1,22 +1,22 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>New user Register for DevOps Learning by Domenica.</h1>
-    <p>Please fill in this form to create an account by Domenica.</p>
+    <h1>New user Register for DevOps Learning by Smalleg.</h1>
+    <p>Please fill in this form to create an account by Smalleg.</p>
     <hr>
      
     <label for="New-User Name"><b>Enter Name</b></label>
     <input type="text" placeholder="Enter Full Name ..." name="Name" id="Name" required>
     <br>
     
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter mobile number ..." name="mobile" id="mobile" required>
+    <label for="mobile"><b>Enter Mobile</b></label>
+    <input type="text" placeholder="Enter Mobile number ..." name="mobile" id="mobile" required>
     <br>
 
     <label for="email"><b>Enter Email</b></label>
     <input type="text" placeholder="Enter Email ..." name="email" id="email" required>
     <br>
 
-    <label for="psw"><b>Password</b></label>
+    <label for="psw"><b>Enter Password</b></label>
     <input type="password" placeholder="Enter Password ..." name="psw" id="psw" required>
     <br>
 
@@ -31,6 +31,6 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 
-   <h1>Happy Learning Domenica.</h1>
+   <h1>Happy Learning Smalleg.</h1>
   
 </form>
