@@ -1,7 +1,7 @@
 apiVersion: apps/v1 
 kind: Deployment
 metadata:
-  name: valaxy-regapp
+  name: dan-regapp
   labels: 
      app: regapp
 
@@ -18,10 +18,18 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: valaxy/regapp
+        image: danielegambino/regapp
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+    
   strategy:
     type: RollingUpdate
     rollingUpdate:

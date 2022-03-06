@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "kubernetes": "*.yaml",
+        "kubernetes://schema/v1@pod": "file:///c%3A/devel/vscode/_java/udemy-devops/hello-world/my-devops/k8s/pod.yaml"
+    }
+}
