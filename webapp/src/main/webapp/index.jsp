@@ -1,7 +1,7 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>New user Register for DevOps Learning by SABATO.</h1>
-    <p>Please fill in this form to create an account by SABATO.</p>
+    <h1>New user Register for DevOps Learning by Domenica.</h1>
+    <p>Please fill in this form to create an account by Domenica.</p>
     <hr>
      
     <label for="New-User Name"><b>Enter Name</b></label>
@@ -31,6 +31,6 @@
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 
-   <h1>Happy Learning SABATO.</h1>
+   <h1>Happy Learning Domenica.</h1>
   
 </form>
