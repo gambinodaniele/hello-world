@@ -6,7 +6,7 @@ metadata:
      app: regapp
 
 spec:
-  replicas: 2 
+  replicas: 5 
   selector:
     matchLabels:
       app: regapp
@@ -29,7 +29,7 @@ spec:
           limits:
             memory: "128Mi"
             cpu: "500m"
-    
+
   strategy:
     type: RollingUpdate
     rollingUpdate:
